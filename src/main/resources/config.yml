@@ -1,0 +1,26 @@
+display-y-offset: 0.25
+display-scale: 1.0
+display-text:
+  - '<reset>%luckperms_prefix%'
+  - '<white>%player_name%'
+  - '<#e33b3b>🗡 <white>%statistic_player_kills% <gray>| <#ff0033>❤ <white>%player_health% <gray>| <#e34234>☠ <white>%statistic_deaths%'
+separate-line-displays: false
+line-settings:
+  '0':
+    height: 0.75
+    scale: 1.2
+  '1':
+    height: 0.5
+    scale: 1.0
+  '2':
+    height: 0.25
+    scale: 0.9
+update-interval-ticks: 10
+visibility-interval-ticks: 2
+view-distance: 48
+hide-when-sneaking: true
+hide-when-invisible: true
+hide-vanilla-names: true
+shadow: true
+see-through: false
+line-width: 300

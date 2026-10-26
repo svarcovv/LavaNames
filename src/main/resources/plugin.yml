@@ -1,0 +1,19 @@
+name: LavaNames
+version: '${version}'
+
+main: dev.svarcovv.lavanames.LavaNames
+api-version: '1.21.4'
+load: POSTWORLD
+
+authors: [ SvarKa ]
+description: Голограммы с ником и статистикой над игроками.
+softdepend: [PlaceholderAPI, LuckPerms, TAB]
+commands:
+  lavanames:
+    description: Управление голограммами.
+    usage: /lavanames [reload|refresh|status]
+    aliases: [lnames]
+permissions:
+  lavanames.admin:
+    description: Управление LavaNames.
+    default: op
